@@ -1,0 +1,43 @@
+{
+   "abstract" : "Google Web Fonts from your terminal",
+   "author" : [
+      "Mark Allen <mrallen1@yahoo.com>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Dist::Zilla version 4.300034, CPAN::Meta::Converter version 2.120921",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "App-gfonts",
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "6.30"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "IO::Socket::SSL" : "1.88"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "mailto" : "bug-App-gfonts@rt.cpan.org",
+         "web" : "https://rt.cpan.org/Public/Dist/Display.html?Name=App-gfonts"
+      },
+      "homepage" : "https://metacpan.org/dist/App-gfonts",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/mrallen1/App-gfonts.git",
+         "web" : "https://github.com/mrallen1/App-gfonts"
+      }
+   },
+   "version" : "0.01"
+}
+
